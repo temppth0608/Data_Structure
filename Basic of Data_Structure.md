@@ -31,7 +31,7 @@
 ```
 
 ### 순차 탐색(Linear Search) 알고리즘과 시간 복잡도 분석의 핵심요소
-```
+```C
 int LSearch(int ar[], int len, int target) {
 	int i;
 	for(i = 0; i < len; i++) {
@@ -50,7 +50,7 @@ Linear Search의 시간 복잡도 - n(결과가 없는경우) * 1/2(탐색 실�
 
 ### 이진 탐색(Binary Search) 알고리즘의 소개
 
-```
+```C
 int BSearch(int ar[]. int len, int target) {
 	int first = 0;
 	int last = len - 1;
